@@ -1,5 +1,5 @@
 // Connect to server
-const socket = io();
+const socket = io("https://shooter-game-c085.onrender.com");
 
 let myPlayerNumber = null;
 let gameStarted = false;
